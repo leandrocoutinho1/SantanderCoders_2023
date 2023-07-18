@@ -17,7 +17,7 @@ while op != 'S':
             if op == '-':
                 print(f"{num1} - {num2} = {num1 - num2}")
             if op == '*':
-                print(f"{num1} * {num2} = {num1 * num}")
+                print(f"{num1} * {num2} = {num1 * num2}")
             if op == '/':
                 if (num1 == 0) or (num2 == 0):
                     print("Não é possível realizar divisões por 0.")
